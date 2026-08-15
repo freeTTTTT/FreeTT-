@@ -1,3 +1,63 @@
 h1{
   text-align: center;
+  color: red;
 }
+
+h3{
+  text-align: center;
+}
+
+h2{
+text-align:center;
+  color:blue;
+  }
+body{
+  background:black
+}
+.ir{
+color:white;
+  background:green;
+  border:white;
+  border-width:2;
+  border-style: solid;
+  border-radius:5px;
+  padding: 10px 30px;
+  text-align:center;
+}
+.ir:hover{
+  background:gold;
+  transition:0.3s;
+
+}
+.entrar:hover{
+  background: silver;
+  transition:0.3s;
+}
+
+@keyframes mover {
+  from{
+    transform: translateX(0);
+    }
+  to{
+    transform: translateX(100px);
+    }
+  }
+h2{
+  animation:mover 2s infinite
+  alternate-reverse;
+  }
+h3{
+  color:gold;
+}
+ .entrar {
+  color:orange;
+   background: blue;
+   border-radius:5px;
+   padding: 10px 40px;
+   border-color:white;
+   text-align:left;
+   display: block;
+   margin: 20px;
+  }
+  
+  
